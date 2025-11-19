@@ -12,14 +12,26 @@ body {
     background-color: #0357858f;
 }
 
+.nav-bg{
+    height: 70px;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 470px;
+    border-radius: 999px;
+    position: relative;
+    top: 20px;
+    box-shadow: 0 0 25px rgba(255,255,255,0.2);
+}
+
 .nav-items {
     color: lavender;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     font-size: 1.2rem;
 }
 
-.nav-items li:hover{
+.nav-items li:not(.login):hover{
     transform: scale(1.1);
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(2px);
@@ -27,7 +39,7 @@ body {
 }
 
 .nav-items li {
-    margin-top: 30px;
+    margin-top: 14px;
     list-style: none;
     cursor: pointer;
     padding: 7px 12px;
@@ -106,4 +118,25 @@ body {
     transform: translateX(-20px) scale(1.2);
     box-shadow: 0 0 25px rgba(255,255,255,0.2);
     background: rgba(0, 0, 0, 0.45);
+}
+
+.login{
+    background: rgba(137, 43, 226, 0.75);
+    width: 60px;
+    border-radius: 999px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.35);
+}
+
+.login:hover {
+    background: #6e1cbebe;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(137, 43, 226, 0.5);   
 }
