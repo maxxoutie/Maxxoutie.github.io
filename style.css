@@ -66,7 +66,7 @@ body {
 }
 
 .down-symbol{
-    background-image: url(images/Down-Arrow.png);
+    background-image: url(Down-Arrow.png);
     background-size: cover;
     height: 159px;
     width: 106px;
@@ -80,7 +80,7 @@ body {
     padding-bottom: 50px;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(images/Education.png);
+        url(Education.png);
     background-size: cover;
     background-position: center;
 }
@@ -151,5 +151,5 @@ body {
 .login:hover {
     background: #6e1cbebe;
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(137, 43, 226, 0.5);   
+    box-shadow: 0 0 20px rgba(137, 43, 226, 0.5);
 }
